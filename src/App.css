@@ -6,3 +6,4 @@ body{
     line-height: 1;
     
 }
+.crossBtn{background: red; padding: 8px; float: right; border-radius: 100%;border: none;color: #fff;height: 25px;width: 25px;display: flex;justify-content: center;align-items: center;}
