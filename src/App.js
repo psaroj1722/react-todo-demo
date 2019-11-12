@@ -39,7 +39,7 @@ markComplete = (id) => {
 }
 
 // delTodo Complete
-
+ 
   delTodo = (id) => {
     this.setState({ todos: [...this.state.todos.filter( todo => todo.id !== id)] });
   }
