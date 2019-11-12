@@ -3,23 +3,24 @@ import Header from './component/layout/header'
 import Todos from './component/Todos';
 import AddTodo from './component/AddTodo';
 import './App.css';
+import uuid from 'uuid';
 
 
 class App extends Component {
 state = { 
   todos: [
     {
-      id: 1,
+      id: uuid.v4(),
       title: '10th Passed',
       completed: false
     },
     {
-      id: 2,
+      id: uuid.v4(),
       title: '12th Passed',
       completed: false
     },
     {
-      id: 3,
+      id: uuid.v4(),
       title: 'B.Tech Passed',
       completed: false
     }
@@ -43,6 +44,16 @@ markComplete = (id) => {
     this.setState({ todos: [...this.state.todos.filter( todo => todo.id !== id)] });
   }
 
+  // Add Todo
+  addTodo = (title) => {
+    const newTodo = {
+      id: uuid.v4(),
+      title,
+      completed:false
+    }
+   this.setState({todos: [...this.state.todos, newTodo] });
+  }
+
 
   render(){
   //  console.log(this.state.todos)
@@ -51,7 +62,7 @@ markComplete = (id) => {
       <div className="App">
         <div className="container">
           <Header />
-          <AddTodo />
+          <AddTodo  addTodo={this.addTodo} />
           <Todos todos={this.state.todos}  markComplete={this.markComplete} delTodo={this.delTodo}/>
         </div>
       </div>

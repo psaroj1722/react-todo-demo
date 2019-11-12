@@ -10,7 +10,7 @@ getStyle = () => {
         borderBottom: '1px solid #000',
         padding: '15px ',
         color: this.props.todo.completed ?
-        '#c0392b' : 'none'
+        '#c0392b' : '#27ae60'
     }
 
     // if(this.props.todo.completed){
@@ -29,7 +29,7 @@ getStyle = () => {
         const { id, title } = this.props.todo;
         return (
 
-            <div style={this.getStyle()}>
+            <div className="list" style={this.getStyle()}>
                 <h4>
                     <input type="checkbox" onChange={this.props.markComplete.bind(this, id)} /> {''}
                     { title }

@@ -11,3 +11,7 @@ body{font-size: 14px;line-height: 1;}
 .searcForm{width: 100%;float: left; padding-bottom: 3px; clear: both;margin-bottom: 10px;}
 .searchForm input[type="text"]{width: 70%; float: left;padding: 10px 8px;border: 1px solid #ccc;}
 .searchForm input[type="submit"]{width: 30%; float: left;padding: 10px 8px;border: 1px solid #ccc; background: #333; color: #fff;}
+.list {
+    width: 100%;
+    float: left;
+}
