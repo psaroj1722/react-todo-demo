@@ -9,5 +9,5 @@ body{font-size: 14px;line-height: 1;}
 .header{background: #fab1a0; text-align: center; padding: 15px 0;}
 .header h1{color: #2d3436;}
 .searcForm{width: 100%;float: left; padding-bottom: 3px; clear: both;margin-bottom: 10px;}
-.searcForm input[type="text"]{width: 70%; float: left;padding: 10px 8px;border: 1px solid #ccc;}
-.searcForm input[type="submit"]{width: 30%; float: left;padding: 10px 8px;border: 1px solid #ccc; background: #333; color: #fff;}
+.searchForm input[type="text"]{width: 70%; float: left;padding: 10px 8px;border: 1px solid #ccc;}
+.searchForm input[type="submit"]{width: 30%; float: left;padding: 10px 8px;border: 1px solid #ccc; background: #333; color: #fff;}
