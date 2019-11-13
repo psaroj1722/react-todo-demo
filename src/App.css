@@ -13,3 +13,5 @@ body{font-size: 14px;line-height: 1;}
 .searchForm input[type="submit"]{width: 30%; float: left;padding: 10px 8px;border: 1px solid #ccc; background: #333; color: #fff;}
 .list { width: 100%;float: left;}
 .menu-list{color: #fff; text-decoration: none; font-size: 14px; font-weight: 600;}
+
+p{ margin-top: 10px;}
