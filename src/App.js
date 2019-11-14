@@ -4,6 +4,8 @@ import Header from './component/layout/header'
 import Todos from './component/Todos';
 import AddTodo from './component/AddTodo';
 import About from './component/pages/About';
+import Gallery from './component/pages/Gallery';
+import Contact from './component/pages/Contact';
 import uuid from 'uuid';
 import axios from 'axios';
 
@@ -65,6 +67,8 @@ markComplete = (id) => {
                 </React.Fragment>
               )} />
               <Route path="/about" component={About} />
+              <Route path="/Gallery" component={Gallery} />
+              <Route path="/Contact" component={Contact} />
              
             </div>
           </div>

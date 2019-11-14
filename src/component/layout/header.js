@@ -6,7 +6,7 @@ function Header(){
         <header className="header">
           
             <h1>Todo List</h1>
-            <Link className="menu-list" to="/">Home</Link> | <Link className="menu-list" to="/about">About</Link>
+            <Link className="menu-list" to="/">Home</Link> | <Link className="menu-list" to="/about">About</Link> | <Link className="menu-list" to="/Gallery">Gallery</Link> |<Link className="menu-list" to="/Contact">Contact</Link>
            
         </header>
     )
